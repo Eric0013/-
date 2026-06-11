@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>AI股神平台</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+<h1 class="logo">
+🚀 AI股神平台
+</h1>
+
+<section>
+
+<h2>
+🔥 AI推薦股票
+</h2>
+
+<div class="slider">
+
+<div class="slider-track"
+id="slider-track">
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+🔍 搜尋股票
+</h2>
+
+<div class="search-box">
+
+<input
+id="symbol"
+placeholder="輸入股票代碼">
+
+<button
+onclick="analyzeStock()">
+
+開始分析
+
+</button>
+
+</div>
+
+</section>
+
+<section
+id="stock-info"
+class="card hidden">
+
+<h2>
+📈 股票資訊
+</h2>
+
+<div id="stock-result">
+
+等待查詢...
+
+</div>
+
+</section>
+
+<section
+class="card">
+
+<h2>
+🤖 AI股票分析師
+</h2>
+
+<div id="ai-result">
+
+請搜尋股票
+
+</div>
+
+</section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
